@@ -2695,6 +2695,28 @@
 		)
 		(uuid "fd980954-526f-46c3-b88c-d629620a46a5")
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 172.72 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00c9becd-60a7-4288-bd2d-56cccc280b36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.2128 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D-"
 		(shape input)
 		(at 165.1 160.02 0)

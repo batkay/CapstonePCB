@@ -81,6 +81,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 186.69 19.05)
+		(size 39.37 66.04)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "60577678-b461-48ab-a77f-5a5fa4853d50")
+		(property "Sheetname" "Outputs"
+			(at 186.69 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Outputs.kicad_sch"
+			(at 186.69 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nrfMain"
+				(path "/4b478080-1b18-4cae-a6eb-51454cf43595"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
