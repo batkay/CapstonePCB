@@ -616,6 +616,14 @@
     [
       "0dd7376e-3e01-470b-b555-85887cf9232f",
       "Power"
+    ],
+    [
+      "60577678-b461-48ab-a77f-5a5fa4853d50",
+      "Outputs"
+    ],
+    [
+      "66a05c95-f443-4eaa-9136-a7c0452cfc17",
+      "Inputs"
     ]
   ],
   "text_variables": {}

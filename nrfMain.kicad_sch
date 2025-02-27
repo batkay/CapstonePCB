@@ -119,6 +119,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 21.59 104.14)
+		(size 106.68 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "66a05c95-f443-4eaa-9136-a7c0452cfc17")
+		(property "Sheetname" "Inputs"
+			(at 21.59 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Inputs.kicad_sch"
+			(at 21.59 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nrfMain"
+				(path "/4b478080-1b18-4cae-a6eb-51454cf43595"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
