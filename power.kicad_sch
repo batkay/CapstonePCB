@@ -2427,7 +2427,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:TLV1117-33"
+		(symbol "Regulator_Linear:LD39150DT33"
 			(pin_names
 				(offset 0.254)
 			)
@@ -2442,7 +2442,7 @@
 					)
 				)
 			)
-			(property "Value" "TLV1117-33"
+			(property "Value" "LD39150DT33"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -2451,8 +2451,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2460,8 +2460,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv1117.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/ld39150.pdf"
+				(at 2.54 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2469,7 +2469,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"
+			(property "Description" "1.5A Ultra Low Dropout regulator, positive, 3.3V fixed output, TO-252"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2487,7 +2487,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?223* TO?263* TO?252* TO?220*"
+			(property "ki_fp_filters" "TO?252*TabPin2*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2496,7 +2496,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TLV1117-33_0_1"
+			(symbol "LD39150DT33_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 1.905)
@@ -2509,11 +2509,11 @@
 					)
 				)
 			)
-			(symbol "TLV1117-33_1_1"
+			(symbol "LD39150DT33_1_1"
 				(pin power_in line
-					(at 0 -7.62 90)
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "GND"
+					(name "VI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2528,10 +2528,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 7.62 0 180)
+				(pin power_in line
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "VO"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2546,10 +2546,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -7.62 0 0)
+				(pin power_out line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "VI"
+					(name "VO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8257,95 +8257,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:TLV1117-33")
-		(at 226.06 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cbd7173c-c46a-4fab-8cff-8e739c32f3fa")
-		(property "Reference" "U7"
-			(at 226.06 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV1117-33"
-			(at 226.06 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 226.06 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv1117.pdf"
-			(at 226.06 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"
-			(at 226.06 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C15578"
-			(at 226.06 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "TLV1117LV33DCYR"
-			(at 226.06 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "839985e2-0328-458a-b17c-6a52cef41473")
-		)
-		(pin "3"
-			(uuid "e4155f38-bcd6-4df2-aaed-23c5bd286ad1")
-		)
-		(pin "2"
-			(uuid "a6b1b986-067b-494f-9658-28a85b234946")
-		)
-		(instances
-			(project ""
-				(path "/4b478080-1b18-4cae-a6eb-51454cf43595/0dd7376e-3e01-470b-b555-85887cf9232f"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Q_NMOS_GSD")
 		(at 179.07 59.69 270)
 		(unit 1)
@@ -8897,6 +8808,86 @@
 			(project "nrfMain"
 				(path "/4b478080-1b18-4cae-a6eb-51454cf43595/0dd7376e-3e01-470b-b555-85887cf9232f"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LD39150DT33")
+		(at 226.06 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f661d6fe-1ec0-436e-a77a-71f86f2625de")
+		(property "Reference" "U8"
+			(at 226.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LD39150DT33"
+			(at 226.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+			(at 226.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/ld39150.pdf"
+			(at 228.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5A Ultra Low Dropout regulator, positive, 3.3V fixed output, TO-252"
+			(at 226.06 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C155559"
+			(at 226.06 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e26b067-5f76-4981-9865-039964bbce37")
+		)
+		(pin "1"
+			(uuid "ced0d69f-22ca-4373-b70a-c4aac36e6f9d")
+		)
+		(pin "3"
+			(uuid "c5493d53-cd9d-4a30-bfa4-3fbca65ec539")
+		)
+		(instances
+			(project ""
+				(path "/4b478080-1b18-4cae-a6eb-51454cf43595/0dd7376e-3e01-470b-b555-85887cf9232f"
+					(reference "U8")
 					(unit 1)
 				)
 			)
