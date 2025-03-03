@@ -7353,7 +7353,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8f2f42f3-3f4c-417a-98e6-6cb99dd08136")
 		(property "Reference" "#PWR015"
 			(at 219.71 39.37 0)
@@ -8463,7 +8462,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1210_3225Metric"
 			(at 229.87 44.958 90)
 			(effects
 				(font
@@ -8483,6 +8482,24 @@
 		)
 		(property "Description" "Fuse"
 			(at 229.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "Shenzhen JDT Fuse ASMD1210-150-16V"
+			(at 229.87 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2982275"
+			(at 229.87 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
