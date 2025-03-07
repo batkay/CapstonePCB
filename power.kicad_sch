@@ -5203,6 +5203,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C2682616"
+			(at 140.97 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "91f0bf67-7988-49da-b606-10ddd68e1893")
 		)
