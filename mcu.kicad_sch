@@ -2868,6 +2868,26 @@
 					)
 				)
 			)
+			(symbol "2337019-1_1_1"
+				(pin input line
+					(at 2.54 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 		)
 		(symbol "generic:MX25R6435FZAIL0"
 			(exclude_from_sim no)
@@ -3947,6 +3967,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 62.23) (xy 68.58 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1533af0c-20cd-4e8c-8e17-e7c1e7ae4938")
+	)
+	(wire
+		(pts
 			(xy 31.75 142.24) (xy 40.64 142.24)
 		)
 		(stroke
@@ -4334,16 +4364,6 @@
 			(type default)
 		)
 		(uuid "5ed6136a-e3bf-41c6-9d61-e148cb97fcf9")
-	)
-	(wire
-		(pts
-			(xy 68.58 62.23) (xy 68.58 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60c0afb3-d183-4910-8342-c956480c3584")
 	)
 	(wire
 		(pts
@@ -5740,6 +5760,9 @@
 		)
 		(pin "1"
 			(uuid "563e4fd3-90b1-494a-a03a-c0804e72f44f")
+		)
+		(pin "G2"
+			(uuid "af19ce1b-9849-4ef6-bd6c-a8e37e29361b")
 		)
 		(instances
 			(project ""
@@ -8748,12 +8771,12 @@
 	(symbol
 		(lib_id "power:GND")
 		(at 68.58 63.5 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aabaf46d-f123-4d1f-a4cf-6f9f1339e0ce")
 		(property "Reference" "#PWR057"
 			(at 68.58 69.85 0)
