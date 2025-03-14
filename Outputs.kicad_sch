@@ -1782,6 +1782,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2922787"
+			(at 212.09 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "096239b0-4b10-465a-b1af-70a8fd6cd8b4")
 		)
@@ -3491,6 +3500,15 @@
 		)
 		(property "LCSC PN" "C14663"
 			(at 204.47 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C14663"
+			(at 204.47 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)

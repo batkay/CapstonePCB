@@ -1009,6 +1009,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C14663"
+			(at 97.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b935e94b-9aa0-49a4-9698-9d2586568951")
 		)
@@ -1221,6 +1230,15 @@
 			)
 		)
 		(property "LCSC PN" "C160390"
+			(at 46.99 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C160390"
 			(at 46.99 25.4 0)
 			(effects
 				(font
@@ -1579,6 +1597,15 @@
 			)
 		)
 		(property "LCSC PN" "C3171752"
+			(at 53.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3171752"
 			(at 53.34 60.96 0)
 			(effects
 				(font
